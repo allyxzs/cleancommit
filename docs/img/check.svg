@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="672" viewBox="0 0 920 672" role="img" aria-label="cleancommit check">
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px;white-space:pre}</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0b0f14"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="919" height="671" rx="12" fill="url(#bg)" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="919" height="38" rx="12" fill="#161b22"/><rect x="0.5" y="26" width="919" height="13" fill="#161b22"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="460.0" y="24" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">cleancommit check</text>
+<text y="58" xml:space="preserve"><tspan x="22.0" fill="#7ee787" font-weight="700">$</tspan><tspan x="38.9" fill="#c9d1d9">cleancommit</tspan></text>
+<text y="79" xml:space="preserve"><tspan x="30.4" fill="#56d4dd" font-weight="700">CleanCommit</tspan><tspan x="131.6" fill="#6e7681">›</tspan><tspan x="148.4" fill="#6e7681">revisando alterações em stage</tspan></text>
+<text y="100" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9">5 arquivos</tspan><tspan x="131.6" fill="#7ee787">+187</tspan><tspan x="173.7" fill="#ff7b72">−12</tspan></text>
+<text y="142" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9" font-weight="700">.env</tspan></text>
+<text y="163" xml:space="preserve"><tspan x="47.3" fill="#ff7b72">✖</tspan><tspan x="114.7" fill="#ff7b72">env-file</tspan><tspan x="258.0" fill="#c9d1d9">Arquivo de ambiente costuma conter segredos</tspan></text>
+<text y="205" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9" font-weight="700">dist/bundle.js</tspan></text>
+<text y="226" xml:space="preserve"><tspan x="47.3" fill="#e3b341">▲</tspan><tspan x="114.7" fill="#e3b341">build-output</tspan><tspan x="258.0" fill="#c9d1d9">Artefato de build/saída gerado</tspan></text>
+<text y="268" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9" font-weight="700">package-lock.json</tspan></text>
+<text y="289" xml:space="preserve"><tspan x="47.3" fill="#e3b341">▲</tspan><tspan x="114.7" fill="#e3b341">lockfile-only</tspan><tspan x="258.0" fill="#c9d1d9">Lockfile mudou sem package.json — atualização acidental de dependências?</tspan></text>
+<text y="331" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9" font-weight="700">src/api/user.ts</tspan></text>
+<text y="352" xml:space="preserve"><tspan x="47.3" fill="#ff7b72">✖</tspan><tspan x="64.2" fill="#6e7681">L42</tspan><tspan x="114.7" fill="#ff7b72">js-debugger</tspan><tspan x="258.0" fill="#c9d1d9">Instrução debugger esquecida</tspan></text>
+<text y="373" xml:space="preserve"><tspan x="97.9" fill="#6e7681">│</tspan><tspan x="114.7" fill="#6e7681">debugger;</tspan></text>
+<text y="394" xml:space="preserve"><tspan x="47.3" fill="#e3b341">▲</tspan><tspan x="64.2" fill="#6e7681">L57</tspan><tspan x="114.7" fill="#e3b341">js-console</tspan><tspan x="258.0" fill="#c9d1d9">console.* esquecido no código</tspan></text>
+<text y="415" xml:space="preserve"><tspan x="97.9" fill="#6e7681">│</tspan><tspan x="114.7" fill="#6e7681">console.log(&quot;user payload&quot;, payload)</tspan></text>
+<text y="436" xml:space="preserve"><tspan x="47.3" fill="#e3b341">▲</tspan><tspan x="64.2" fill="#6e7681">L88</tspan><tspan x="114.7" fill="#e3b341">hardcoded-secret</tspan><tspan x="258.0" fill="#c9d1d9">Possível segredo fixo no código</tspan></text>
+<text y="457" xml:space="preserve"><tspan x="97.9" fill="#6e7681">│</tspan><tspan x="114.7" fill="#6e7681">const apiKey = &quot;sk_l••••</tspan></text>
+<text y="499" xml:space="preserve"><tspan x="30.4" fill="#c9d1d9" font-weight="700">src/billing/invoice.ts</tspan></text>
+<text y="520" xml:space="preserve"><tspan x="47.3" fill="#79c0ff">●</tspan><tspan x="64.2" fill="#6e7681">L12</tspan><tspan x="114.7" fill="#79c0ff">todo-marker</tspan><tspan x="258.0" fill="#c9d1d9">Marcador pendente (TODO/FIXME/HACK) adicionado</tspan></text>
+<text y="541" xml:space="preserve"><tspan x="97.9" fill="#6e7681">│</tspan><tspan x="114.7" fill="#6e7681">// TODO: tratar desconto</tspan></text>
+<text y="583" xml:space="preserve"><tspan x="30.4" fill="#6e7681">────────────────────────────────────────────────────────────</tspan></text>
+<text y="604" xml:space="preserve"><tspan x="30.4" fill="#ff7b72">✖ 2 erros</tspan><tspan x="131.6" fill="#e3b341">▲ 4 avisos</tspan><tspan x="241.2" fill="#79c0ff">● 1 info</tspan></text>
+<text y="625" xml:space="preserve"><tspan x="30.4" fill="#ff7b72" font-weight="700">Commit bloqueado</tspan><tspan x="173.7" fill="#6e7681">— corrija os itens acima antes de commitar</tspan></text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="735" height="252" viewBox="0 0 735 252" role="img" aria-label="git hooks">
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px;white-space:pre}</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0b0f14"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="734" height="251" rx="12" fill="url(#bg)" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="734" height="38" rx="12" fill="#161b22"/><rect x="0.5" y="26" width="734" height="13" fill="#161b22"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="367.5" y="24" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">git hooks</text>
+<text y="58" xml:space="preserve"><tspan x="22.0" fill="#7ee787" font-weight="700">$</tspan><tspan x="38.9" fill="#c9d1d9">cleancommit hook install --with-msg</tspan></text>
+<text y="79" xml:space="preserve"><tspan x="30.4" fill="#7ee787">✔</tspan><tspan x="47.3" fill="#c9d1d9" font-weight="700">pre-commit</tspan><tspan x="140.0" fill="#c9d1d9">criado</tspan><tspan x="199.0" fill="#6e7681">.git/hooks/pre-commit</tspan></text>
+<text y="100" xml:space="preserve"><tspan x="30.4" fill="#7ee787">✔</tspan><tspan x="47.3" fill="#c9d1d9" font-weight="700">prepare-commit-msg</tspan><tspan x="207.5" fill="#c9d1d9">criado</tspan><tspan x="266.5" fill="#6e7681">.git/hooks/prepare-commit-msg</tspan></text>
+<text y="121" xml:space="preserve"><tspan x="47.3" fill="#6e7681">Ignorar uma vez: git commit --no-verify  (ou CLEANCOMMIT_SKIP=1 git commit)</tspan></text>
+<text y="163" xml:space="preserve"><tspan x="22.0" fill="#7ee787" font-weight="700">$</tspan><tspan x="38.9" fill="#c9d1d9">cleancommit hook status</tspan></text>
+<text y="184" xml:space="preserve"><tspan x="30.4" fill="#7ee787">✔</tspan><tspan x="47.3" fill="#c9d1d9" font-weight="700">pre-commit</tspan><tspan x="140.0" fill="#c9d1d9">instalado</tspan><tspan x="224.3" fill="#6e7681">.git/hooks/pre-commit</tspan></text>
+<text y="205" xml:space="preserve"><tspan x="30.4" fill="#7ee787">✔</tspan><tspan x="47.3" fill="#c9d1d9" font-weight="700">prepare-commit-msg</tspan><tspan x="207.5" fill="#c9d1d9">instalado</tspan><tspan x="291.8" fill="#6e7681">.git/hooks/prepare-commit-msg</tspan></text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="583" height="420" viewBox="0 0 583 420" role="img" aria-label="cleancommit suggest">
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px;white-space:pre}</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0b0f14"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="582" height="419" rx="12" fill="url(#bg)" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="582" height="38" rx="12" fill="#161b22"/><rect x="0.5" y="26" width="582" height="13" fill="#161b22"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="291.5" y="24" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">cleancommit suggest</text>
+<text y="58" xml:space="preserve"><tspan x="22.0" fill="#7ee787" font-weight="700">$</tspan><tspan x="38.9" fill="#c9d1d9">cleancommit suggest</tspan></text>
+<text y="79" xml:space="preserve"><tspan x="30.4" fill="#56d4dd" font-weight="700">CleanCommit</tspan><tspan x="131.6" fill="#6e7681">›</tspan><tspan x="148.4" fill="#6e7681">mensagem sugerida</tspan></text>
+<text y="100" xml:space="preserve"><tspan x="30.4" fill="#6e7681">╭──────────────────────────────────────────────╮</tspan></text>
+<text y="121" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="47.3" fill="#7ee787" font-weight="700">feat(auth): atualiza token, session e login</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="142" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="163" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="47.3" fill="#c9d1d9">- internal/auth/token.go (+34 -2)</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="184" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="47.3" fill="#c9d1d9">- internal/auth/session.go (+21 -6)</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="205" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="47.3" fill="#c9d1d9">- internal/auth/login.go (+9 -1)</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="226" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="247" xml:space="preserve"><tspan x="30.4" fill="#6e7681">│</tspan><tspan x="47.3" fill="#c9d1d9">Refs: #128</tspan><tspan x="426.6" fill="#6e7681">│</tspan></text>
+<text y="268" xml:space="preserve"><tspan x="30.4" fill="#6e7681">╰──────────────────────────────────────────────╯</tspan></text>
+<text y="289" xml:space="preserve"><tspan x="30.4" fill="#6e7681">Outros tipos possíveis:</tspan></text>
+<text y="310" xml:space="preserve"><tspan x="47.3" fill="#6e7681">fix(auth): atualiza token, session e login</tspan></text>
+<text y="331" xml:space="preserve"><tspan x="47.3" fill="#6e7681">refactor(auth): atualiza token, session e login</tspan></text>
+<text y="373" xml:space="preserve"><tspan x="30.4" fill="#6e7681">Para usar:  cleancommit suggest --commit</tspan></text>
+</svg>
